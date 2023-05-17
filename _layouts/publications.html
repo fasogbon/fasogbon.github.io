@@ -1,0 +1,397 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+
+
+
+
+
+
+
+<h4 style="margin-bottom:0px;padding-top:20px;">Publications</h4>
+
+    <ul class="biblist">
+
+
+<li ><p>
+<b>TMD: Transformed Mesh Decoder for Mesh Animation</b>
+<br><b>P. Fasogbon</b>, H. Zhang, F. CriCri, H. Tavakoli, E. Aksu<br>	
+<i>26th International Conference on Pattern Recognition (ICPR),</i>
+<i>August 2022</i>
+<br />
+<a href="javascript:toggleBibtex('pfasogbontmd2022')">[BibTeX]</a>
+<a href="" target="_blank">[PDF]</a>
+<!--<a href="">[Code]</a>%}-->
+</p>
+<div id="bib_bailo2018efficient" class="bibtex noshow">
+<pre>
+@INPROCEEDINGS{pfasogbontmd2022,
+  author={Fasogbon, Peter and Zhang, Honglei and Cricri, Francesco and Tavakoli, Hamed R. and Aksu, Emre},
+  booktitle={2022 26th International Conference on Pattern Recognition (ICPR)}, 
+  title={TMD: Transformed Mesh Decoder for Mesh Animation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={3829-3836},
+  doi={10.1109/ICPR56361.2022.9956209}}
+</pre>
+</div>
+</li>
+
+
+
+<li ><p>
+<b> NBMP Standard Use Case: 3D Human Reconstruction Workflow </b>
+<br> Y. You, <b>P. Fasogbon</b>, E. Aksu <br>	
+<i>CVIP </i><i> 2021</i>
+<br />
+</p>
+</li>	  
+	
+	    
+<li ><p>
+<b> 3D human model creation on a serverless environment </b>
+<br><b>P. Fasogbon</b>, Y. You, E. Aksu<br>		
+<i>IEEE ISMAR </i><i> 2020</i>
+<br />
+<a href="">[BibTeX]</a>
+</p>
+<div id="" class="bibtex noshow">
+<pre>
+
+</pre>
+</div>
+</li>	     
+	  
+<li ><p>
+<b> Calibration of fisheye camera using entrance pupil </b>
+<br><b>P. Fasogbon</b>, E. Aksu <br>	
+<i>IEEE ICIP </i><i> 2019</i>
+<br />
+<a href="">[BibTeX]</a>
+<a href="" target="_blank">[PDF]</a>
+</p>
+<div id="" class="bibtex noshow">
+<pre>
+
+</pre>
+</div>
+</li>	 
+
+
+
+
+
+
+<li ><p>
+<b> Frame selection to accelerate Depth from Small Motion on smartphones </b>
+<br><b>P. Fasogbon</b>, E. Aksu, L. Heikkila <br>	
+<i>IEEE IECON </i><i> 2019</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Demo: Accelerating depth-map on mobile device using CPU-GPU co-processing </b>
+<br><b>P. Fasogbon</b>, E. Aksu, L. Heikkila <br>	
+<i>CAIP </i><i> 2019</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Depth from Small Motion using Rank-1 Initialization</b>
+<br><b>P. Fasogbon</b><br>	
+<i>VISAPP </i><i> 2019</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Generic Calibration of Cameras with Non.parallel Optical Elements</b>
+<br><b>P. Fasogbon</b>, L. Fan<br>	
+<i>ICPR </i><i> 2018</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Automatic Feature Extraction for Wide-angle and Fish-eye Camera Calibration</b>
+<br><b>P. Fasogbon</b>, L. Fan<br>	
+<i>ICPR </i><i> 2018</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Fast laser stripe extraction for 3D metallic objects</b>
+<br><b>P. Fasogbon</b>, L. Duvieubourg, L. Macaire<br>	
+<i>IEEE IECON </i><i> 2016</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> A fast and precise peak detector for a 3D laser sensor</b>
+<br><b>P. Fasogbon</b>, L. Duvieubourg, L. Macaire<br>	
+<i> in proceedings of the 12th international FLINS Conference </i><i> 2016</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Scheimpflug camera calibration using lens distortion model</b>
+<br><b>P. Fasogbon</b>, L. Duvieubourg, L. Macaire<br>	
+<i> in proceedings of IAPR international conference on Computer Vision and Image Processing (CVIP) </i><i> 2016</i>
+<br />
+</p>
+</li>	
+
+<li ><p>
+<b> Intrinsic camera calibration equipped with scheimpflug optical device</b>
+<br><b>P. Fasogbon</b>, L. Duvieubourg, P. A. Lacaze, L. Macaire<br>	
+<i> QCAV </i><i> 2015</i>
+<br />
+</p>
+</li>	
+
+
+
+</ul>  
+
+
+<h4 style="margin-bottom:0px;padding-top:20px;">Patents</h4>
+
+    <ul class="biblist">
+	    
+<li ><p>
+<b>Storage and signaling of entrance pupil parameters for immersive media</b>
+<br><b>P. Fasogbon</b>, M. Hannuksela, E. Aksu<br>	
+<i>US patent: App.; 11336812</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+
+<li ><p>
+<b>Network-Based Spatial Computing for Extended Reality (XR) Applications</b>
+<br>Y. You, <b>P. Fasogbon</b>, E. Aksu, IDD Curcio, S. Ahsan, VV Mattila<br>	
+<i>US patent: App.; 17/495329</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+<li ><p>
+<b>METHOD, AN APPARATUS AND A COMPUTER PROGRAM PRODUCT FOR VIDEO ENCODING AND VIDEO DECODING</b>
+<br><b>P. Fasogbon</b>, SS Mate, Y. You, IDD Curcio, E. Aksu, IDD Curcio, S. Ahsan, VV Mattila, F. Cricri<br>	
+<i>US patent: App.; 17933624</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+
+
+
+<li ><p>
+<b>STORAGE AND SIGNALING OF ENTRANCE PUPIL AND DISTORTION PARAMETERS IN IMAGE FILE FORMAT</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+<li ><p>
+<b>VOLUMETRIC VIDEO SYNCHRONIZATION USING SPATIAL NEURAL ATTENTION NETWORK</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+<li ><p>
+<b>OBJECT-BASED 3D AWARE OVERLAYS FOR 360-DEGREE IMMERSIVE VIDEO</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+
+<li ><p>
+<b>SPATIAL COMPUTING SERVICE (SCS) SESSION DESCRIPTION FOR VOLUMETRIC XR CONVERSATION</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+<li ><p>
+<b>REAL-TIME POINTCLOUD ANIMATION USING SCALE CONSTRAINED INVERSE KINEMATICS</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+
+<li ><p>
+<b>METADATA FOR XR CONVERSATIONAL SCENE DESCRIPTION</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+
+<li ><p>
+<b>MESH ANIMATION USING TRANSFORMED GRAPH DECODER (TGD) NEURAL NETWORK</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+<li ><p>
+<b>DEEP NEURAL NETWORK 3D TEXTURE USING WARPED SKIP CONNECTION</b>
+<br><b>P. Fasogbon</b>, et al<br>	
+<i>US patent: App.; --</i>
+<!--<i>US patent: App.; US20200043197A1</i>-->
+<br />
+</li>
+
+<!--[12] P. Fasogbon, G. Ranju, E. Aksu, and F.
+Cri ”SUPERVISED HUMAN TEXTURE FROM
+UV REPRESENTATION”, NC319282, 2019-->
+
+
+</ul>
+
+
+
+<h4 style="margin-bottom:0px;padding-top:20px;">Theses</h4>
+    
+    <ul class="biblist">
+		
+		<li ><p>
+            <b>Dimensional Measurement of Metallic Object by 3D Vision</b>
+	    <br> 
+	    <i> Ph.D Thesis - University of Lille, Nov 2016</i>
+            <br />
+            <a href="javascript:toggleBibtex('fasogbon2016systeme')">[BibTeX]</a>
+		<a href="https://pepite-depot.univ-lille.fr/LIBRE/EDSPI/2016/50376-2016-Fasogbon.pdf" target="_blank">[PDF]</a>
+		</p>
+<div id="bib_rameau2014systeme" class="bibtex noshow">
+<pre>
+@phdthesis{fasogbon2016systeme,
+  title={Dimensional Measurement of Metallic Object by 3D Vision},
+  author={Fasogbon, Peter Oluwanisola},
+  year={2016},
+  school={Universit{\'e} de Lille}
+}
+</pre>
+</div>
+        </li>
+
+        <li ><p>
+            <b>Real-time Tool/Tissue Segmentation for Minimal Invasive Surgery</b>
+	    <br> 
+	    <i> Master Thesis - Erasmus Mundus in Vision and Robotics (VIBOT), Jun 2012</i>
+            <br />
+        </li>
+    </ul>
+    
+   
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
