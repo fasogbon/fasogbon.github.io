@@ -2,10 +2,11 @@ title:
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              //fasogbon.github.io
+google_analytics: G-7YEC2XK9GR
 
 # Owner/author information
 owner:
-  name:           Peter Fasogbon
+  name:           Peter Fasogbon 
   avatar:         Peter_Fasogbon.jpeg
   bio:            Senior Scientist, Computer Vision
   location:       Tampere, Finland
