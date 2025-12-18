@@ -13,7 +13,9 @@ I also contribute technical expertise to international standardization activitie
 
 ---
 
-I received my Master’s degree in Vision and Robotics through the Erasmus Mundus **[VIBOT](https://www.vibot.org/)** programme from the [University of Burgundy](https://en.u-bourgogne.fr/) in 2012.
+I received my Master’s degree in Vision and Robotics through the prestigious Erasmus Mundus **[VIBOT](https://www.vibot.org/)** programme in 2012.  
+VIBOT is a **highly selective international joint master’s programme** delivered collaboratively by **three universities**:  
+the [University of Burgundy](https://en.u-bourgogne.fr/) (France), **Heriot-Watt University** (UK), and the **University of Girona** (Spain), with a strong emphasis on computer vision, robotics, and multi-view geometry.
 
 I completed my PhD in Computer Vision in November 2016 at the [University of Lille](https://www.univ-lille.fr/), supervised by Prof. [Ludovic Macaire](https://pro.univ-lille.fr/ludovic-macaire) and Dr. [Luc Duvieubourg](https://pro.univ-lille.fr/luc-duvieubourg).
 
