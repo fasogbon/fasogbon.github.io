@@ -4,28 +4,32 @@ title: Welcome!
 description: "Personal web page"
 tags: [Jekyll, theme, responsive, blog, template]
 ---
-In 2017, I joined [Nokia Technologies](https://www.nokia.com/) as a full time senior scientist in Tampere, Finland. I am nowadays working on 3D computer vision prototypes for present and future Nokia products. I also provide technical consultations in Standards (MPEG, 3GPP).
 
-I received my Master degree in Vision and Robotics ([VIBOT](https://www.vibot.org/), Erasmus mundus) from the [University of Burgundy](https://en.u-bourgogne.fr/) in 2012. I completed my PhD degree in November 2016 supervised by Prof. [Ludovic Macaire](https://pro.univ-lille.fr/ludovic-macaire), and Dr. [Luc Duvieubourg](https://pro.univ-lille.fr/luc-duvieubourg). It is an Industrial PhD under [CIFRE ANRT](https://euraxess.ec.europa.eu/jobs/funding/cifre-fellowships) funding between [French Railway Company (SNCF)](https://www.sncf-reseau.com/en/innovation) and [University of Lille](https://www.univ-lille.fr/). Prior and during the PhD, I work as a R&D Engineer in the simulation, and development of 3D vision system for high speed railway maintenance. 
+I joined [Nokia Technologies](https://www.nokia.com/) in 2017 as a Senior Researcher, where I currently work on **real-time 3D computer vision and volumetric media systems** for present and next-generation Nokia products.  
+My work spans **volumetric capture, rendering, compression, and streaming**, with a strong focus on **deployable, standards-aligned XR systems**.  
+I also contribute technical expertise to international standardization activities, including **MPEG** and **3GPP**.
+
+I received my Master’s degree in Vision and Robotics through the Erasmus Mundus **[VIBOT](https://www.vibot.org/)** programme from the [University of Burgundy](https://en.u-bourgogne.fr/) in 2012.  
+I completed my PhD in Computer Vision in November 2016 at the [University of Lille](https://www.univ-lille.fr/), supervised by Prof. [Ludovic Macaire](https://pro.univ-lille.fr/ludovic-macaire) and Dr. [Luc Duvieubourg](https://pro.univ-lille.fr/luc-duvieubourg).
+
+My doctoral work was an **industrial PhD (CIFRE ANRT)** conducted in collaboration with the [French National Railway Company (SNCF)](https://www.sncf-reseau.com/en/innovation), focusing on **3D vision-based measurement systems** for high-speed railway inspection.  
+Before and during my PhD, I worked as an R&D Engineer on **simulation, calibration, and development of industrial 3D vision systems** for railway maintenance applications.
+
+Please have a look at my curriculum vitae!
 
 <br>
 
+### Research Interests
+- Multi-view Geometry and 3D Reconstruction  
+- Real-Time 3D and Volumetric Vision  
+- Camera, RGB-D, and Sensor Calibration  
+- Industrial 3D Measurement and Quality Control  
+- Classical and Neural Rendering  
+- XR (AR / MR / VR) Systems and Immersive Media  
+
 <br>
 
-Research interests:
-* 3D reconstruction
-* Realtime 3D Vision
-* Sensor Calibration
-* Quality Control
-
-<br>
-
-News:
-* 
-* 
-* 
-
-
-
-
-
+### News
+-  
+-  
+-  

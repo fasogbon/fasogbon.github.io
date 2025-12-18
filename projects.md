@@ -39,6 +39,19 @@ Most of the projects listed here are personal interest that is outside of Nokia
 </div>
 
 
+<div class="post-container">
+    <div class="post-content">
+        <h3 class="post-title">AI Video Surveillance</h3>
+        <p>
+		
+		<!--We also proposed an extension of the two car see-through system for an arbitrary number of vehicle. Specifically, we created a multi-vehicle localization approach relying exclusively on cameras installed on connected cars (i.e. vehicles with Internet access). The proposed method is designed to perform in real-time while requiring a low bandwidth connection as a result of an efficient centralized/decentralized architecture. Hence, our approach is compatible with both LTE Internet connection and local WIFI networks. To reach this goal, the vehicles share small portions of their respective 3D maps to estimate their relative positions. The global consistency between multiple vehicles is enforced via a novel graph-based strategy. This work is still under review for a journal publication.
+<a href="https://www.youtube.com/watch?v=GD7Z95bWP6k&t=38s">[Video]</a> -->
+</p></div>
+<!--<div class="post-thumb"><img src="/images/IllustMultiCar.png" /></div>-->
+</div>
+
+
+
 
 
 ---
