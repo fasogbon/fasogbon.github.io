@@ -7,168 +7,148 @@ modified: 2025-01-01
 comments: false
 ---
 
+> **Note:**  
+> BibTeX, PDF, and DOI links are currently placeholders.  
+> Links will be activated progressively as BibTeX entries and publisher versions are added.
+>
+> For now, please refer to my  
+> [Google Scholar profile](https://scholar.google.com/citations?user=GZwyp3cAAAAJ)  
+> for full-text access and citation metrics.
+
+<!--
+EXAMPLE (DO NOT RENDER):
+
+[[BibTeX]](/bibtex/fasogbon2022tmd.bib)
+[[PDF]](https://ieeexplore.ieee.org/document/9956209)
+[[DOI]](https://doi.org/10.1109/ICPR56361.2022.9956209)
+-->
+
 ## Publications
 
+**Ensuring Color Consistency in RGB-D Multi-Camera Setup**  
+P. Fasogbon  
+International Symposium on Multimedia (ISM), pp. 79–84, 2024  
+[[BibTeX]](#) [[PDF]](#)
+
+---
+
+**Volumetric Video Use Cases for XR Immersive Streaming**  
+P. Fasogbon, S. Bisht, J. Keränen, U. Budak, L. Ilola, L. Kondrad  
+8th International Conference on Education and Multimedia Technology, 2024  
+[[BibTeX]](#) [[PDF]](#)
+
+---
+
+**Real-time Delivery of Visual Volumetric Video-based Coding Data**  
+L. Ilola, S. Bisht, U. Budak, **P. Fasogbon**, J. Keränen, L. Kondrad  
+IEEE International Symposium on Multimedia (ISM), pp. 52–56, 2023  
+[[BibTeX]](#) [[PDF]](#)
+
+---
+
+**Essential Depth Map Processing Algorithms for Real-Time Applications: An Overview**  
+U. Budak, L. Ilola, L. Kondrad, P. R. Alface, **P. Fasogbon**, S. Schwarz  
+IET Conference Proceedings CP887, pp. 138–145, 2024  
+[[BibTeX]](#) [[PDF]](#)
+
+---
+
 **TMD: Transformed Mesh Decoder for Mesh Animation**  
-P. Fasogbon, H. Zhang, F. CriCri, H. Tavakoli, E. Aksu  
-26th International Conference on Pattern Recognition (ICPR), August 2022  
+P. Fasogbon, H. Zhang, F. CriCri, H. R. Tavakoli, E. Aksu  
+26th International Conference on Pattern Recognition (ICPR), pp. 3829–3836, 2022  
 [[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **NBMP Standard Use Case: 3D Human Reconstruction Workflow**  
-Y. You, P. Fasogbon, E. Aksu  
-International Conference on Visual Communications and Image Processing (CVIP), 2021
+Y. You, **P. Fasogbon**, E. Aksu  
+International Conference on Visual Communications and Image Processing (VCIP), 2021  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **3D Human Model Creation on a Serverless Environment**  
 P. Fasogbon, Y. You, E. Aksu  
-IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2020  
-[[BibTeX]](#)
+IEEE International Symposium on Mixed and Augmented Reality (ISMAR) Adjunct, 2020  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
-**Calibration of Fisheye Camera Using Entrance Pupil**  
-P. Fasogbon, E. Aksu  
-IEEE International Conference on Image Processing (ICIP), 2019  
+**Depth from Small Motion using Rank-1 Initialization**  
+P. Fasogbon  
+arXiv preprint arXiv:1907.04058, 2019  
 [[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **Frame Selection to Accelerate Depth from Small Motion on Smartphones**  
-P. Fasogbon, E. Aksu, L. Heikkilä  
-IEEE Industrial Electronics Conference (IECON), 2019
+P. Fasogbon, L. Heikkilä, E. Aksu  
+IEEE Industrial Electronics Conference (IECON), 2019  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
-**Demo: Accelerating Depth-Map on Mobile Device Using CPU–GPU Co-processing**  
-P. Fasogbon, E. Aksu, L. Heikkilä  
-International Conference on Computer Analysis of Images and Patterns (CAIP), 2019
-
----
-
-**Depth from Small Motion Using Rank-1 Initialization**  
-P. Fasogbon  
-International Conference on Computer Vision Theory and Applications (VISAPP), 2019
+**Calibration of Fisheye Camera Using Entrance Pupil**  
+P. Fasogbon, E. Aksu  
+IEEE International Conference on Image Processing (ICIP), pp. 469–473, 2019  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **Generic Calibration of Cameras with Non-Parallel Optical Elements**  
 P. Fasogbon, L. Fan  
-International Conference on Pattern Recognition (ICPR), 2018
+International Conference on Pattern Recognition (ICPR), pp. 1875–1881, 2018  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **Automatic Feature Extraction for Wide-Angle and Fish-Eye Camera Calibration**  
 P. Fasogbon, L. Fan  
-International Conference on Pattern Recognition (ICPR), 2018
+International Conference on Pattern Recognition (ICPR), pp. 2947–2952, 2018  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
-**Fast Laser Stripe Extraction for 3D Metallic Objects**  
+**Fast Laser Stripe Extraction for 3D Metallic Object Measurement**  
 P. Fasogbon, L. Duvieubourg, L. Macaire  
-IEEE Industrial Electronics Conference (IECON), 2016
-
----
-
-**A Fast and Precise Peak Detector for a 3D Laser Sensor**  
-P. Fasogbon, L. Duvieubourg, L. Macaire  
-12th International FLINS Conference, 2016
+IEEE Industrial Electronics Conference (IECON), 2016  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **Scheimpflug Camera Calibration Using Lens Distortion Model**  
 P. Fasogbon, L. Duvieubourg, L. Macaire  
-International Conference on Computer Vision and Image Processing (CVIP), 2016
+International Conference on Computer Vision and Image Processing (CVIP), 2016  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
 **Intrinsic Camera Calibration Equipped with Scheimpflug Optical Device**  
 P. Fasogbon, L. Duvieubourg, P. A. Lacaze, L. Macaire  
-International Conference on Quality Control by Artificial Vision (QCAV), 2015
+International Conference on Quality Control by Artificial Vision (QCAV), 2015  
+[[BibTeX]](#) [[PDF]](#)
+
+---
+
+**A Fast and Precise Peak Detector for a 3D Laser Sensor**  
+P. Fasogbon, L. Duvieubourg, L. Macaire  
+Uncertainty Modelling in Knowledge Engineering and Decision Making, 2015  
+[[BibTeX]](#) [[PDF]](#)
 
 ---
 
 ## Patents
 
 **Storage and Signaling of Entrance Pupil Parameters for Immersive Media**  
-P. Fasogbon, M. Hannuksela, E. Aksu  
-US Patent 11,336,812
+P. Fasogbon, M. Hannuksela  
+US Patent 11,336,812 (2022)
 
 ---
 
 **Network-Based Spatial Computing for Extended Reality (XR) Applications**  
-Y. You, P. Fasogbon, E. Aksu, I. D. D. Curcio, S. Ahsan, V. V. Mattila  
-US Patent 11,748,955
+Y. You, **P. Fasogbon**, E. Aksu, I. D. D. Curcio, S. Ahsan, V. V. Mattila  
+US Patent 11,748,955 (2023)
 
 ---
 
-**Method, Apparatus and Computer Program Product for Video Encoding and Video Decoding**  
-P. Fasogbon, S. S. Mate, Y. You, I. D. D. Curcio, E. Aksu, S. Ahsan, V. V. Mattila, F. Cricrì  
-US Patent 12,154,205
-
----
-
-**Storage and Signaling of Entrance Pupil and Distortion Parameters in Image File Format**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Volumetric Video Synchronization Using Spatial Neural Attention Network**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Object-Based 3D-Aware Overlays for 360-Degree Immersive Video**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Spatial Computing Service (SCS) Session Description for Volumetric XR Conversation**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Real-Time Point Cloud Animation Using Scale-Constrained Inverse Kinematics**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Metadata for XR Conversational Scene Description**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Mesh Animation Using Transformed Graph Decoder (TGD) Neural Network**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-**Deep Neural Network 3D Texture Using Warped Skip Connection**  
-P. Fasogbon et al.  
-US Patent Application
-
----
-
-## Theses
-
-**Dimensional Measurement of Metallic Object by 3D Vision**  
-Ph.D. Thesis, University of Lille, November 2016  
-[[BibTeX]](#) [[PDF]](#)
-
----
-
-**Real-Time Tool/Tissue Segmentation for Minimally Invasive Surgery**  
-Master’s Thesis, Erasmus Mundus in Vision and Robotics (VIBOT), June 2012
-
----
-
-© 2025 Peter Fasogbon. Powered by Jekyll using the Minima theme.
+**Pose**
