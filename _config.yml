@@ -1,12 +1,14 @@
-title:  
-description:      Welcome to my site.
+title:           Peter Fasogbon
+description:      Personal academic website of Peter Fasogbon, Senior Researcher in Computer Vision.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //fasogbon.github.io
+url:              https://fasogbon.github.io
+baseurl:          ""
+logo:             /images/Peter_Fasogbon.png
 google_analytics: G-7YEC2XK9GR
 
 # Owner/author information
 owner:
-  name:           Peter Fasogbon 
+  name:           Peter Fasogbon
   avatar:         Peter_Fasogbon.png
   bio:            Senior Researcher, Computer Vision
   location:       Espoo, Finland
@@ -16,7 +18,7 @@ owner:
   linkedin: peter-fasogbon-olu
   google_scholar: GZwyp3cAAAAJ&hl
   researchgate: Peter-Fasogbon
-  #github: rameau-fr
+  github: fasogbon
 # Analytics and webmaster tools stuff goes here
 #  google_analytics: UA-101328086-1
 #google_verify:
@@ -45,11 +47,6 @@ highlighter: rouge
 markdown:    kramdown
 kramdown:
   extensions: ["strikethrough"]
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
@@ -62,6 +59,9 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
