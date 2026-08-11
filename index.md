@@ -41,7 +41,7 @@ Please have a look at my curriculum vitae!
 
 ---
 
-### News
--  
--  
--  
+### News and Events
+- **Computer Vision and AI news**: [The Gradient](https://thegradient.pub/), [AI News](https://artificialintelligence-news.com/), [Analytics India Magazine - Computer Vision](https://analyticsindiamag.com/category/computer-vision/)  
+- **General tech news**: [TechCrunch](https://techcrunch.com/), [The Verge](https://www.theverge.com/), [Ars Technica](https://arstechnica.com/)  
+- **Key conferences**: [CVPR](https://cvpr.thecvf.com/), [ICCV](https://iccv2025.thecvf.com/), [ECCV](https://eccv2024.ecva.net/), [NeurIPS](https://nips.cc/)
